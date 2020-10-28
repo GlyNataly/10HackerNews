@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { GET_AUTHOR, GET_STORY } from '../api';
 import { useHackerNewsApi } from '../hooks/useHackerNewsApi';
-import { useApiLoopWithIds } from '../hooks/useStoryAndAuthorApi';
+import { useApiLoopWithIds } from '../hooks/useApiLoopWithIds';
 import { arrayToObject, sortByStoryScore } from './helpers';
 import './HackerNewsContainer.scss';
 
