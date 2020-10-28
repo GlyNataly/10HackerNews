@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { getApiRequestLoop } from "../components/helpers";
+import { useState, useEffect } from 'react';
+import { getApiRequestLoop } from '../components/helpers';
 
 export const useApiLoopWithIds = (api, ids) => {
   const [data, setData] = useState([]);
@@ -12,8 +12,8 @@ export const useApiLoopWithIds = (api, ids) => {
       setIsLoading(true);
 
       try {
-        const data = await getApiRequestLoop(api, ids);
-        setData(data);
+        const response = await getApiRequestLoop(api, ids);
+        setData(response);
       } catch (error) {
         setIsError(true);
       }
