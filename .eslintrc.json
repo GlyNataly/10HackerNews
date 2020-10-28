@@ -5,9 +5,11 @@
   "extends": ["airbnb", "airbnb/hooks"],
   "parser": "babel-eslint",
   "rules": {
-    "no-restricted-syntax": 0
+    "no-restricted-syntax": 0,
+    "import/prefer-default-export": "off"
   },
   "env": {
     "browser": true
   }
+  
 }
