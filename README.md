@@ -10,8 +10,7 @@ Custom hook useApiLoopWithIds fetch 10 stories (items) in a loop and then and 10
 The main component which get 10 stories from useHackerNewsApi put them to useApiLoopWithIds for getting info about this stories, then sorted this stories. From stories I get authors ids which going to useApiLoopWithIds and getting info about authors. Then show information, error or loading depends on all three fetch result.
 
 ### For start
-Make npm install
-Then npm run
+Run npm install and then npm run
 
 
 
